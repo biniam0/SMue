@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{% static 'accounts/css/home.css' %}">
+    <title>SMue</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="nav-container">
+      <a href="#" class="logo"
+        ><img src="{% static 'accounts/images/s_logo.png' %}" alt=""
+      /></a>
+      <div class="nav-items">Mentors</div>
+      <a class="nav-items" href="#">Mentees</a>
+      <!--<a class="nav-items" href="#">Meet The Mentors</a> -->
+      <!-- ><a class="nav-items" href="#">Library</a> -->
+      <div class="search-bar">
+        <input type="text" placeholder="Find a Mentor" />
+        <button type="button">Search</button>
+      </div>
+      <div class="avatar-menu">
+        <div class="avatar">A</div>
+        <div class="dropdown">
+          <a href="#">Your Profile</a>
+          <a href="#">Login</a>
+          <a href="#">Logout</a>
+          <a href="#">Signup</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <h1>Welcome to MySite</h1>
+      <p>This is the main content area. Customize it as you like!</p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 MySite. All rights reserved.</p>
+    </footer>
+    
+  </body>
+</html>
